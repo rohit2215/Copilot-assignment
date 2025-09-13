@@ -1,9 +1,9 @@
-🤖 Atlan Customer Support Copilot
+#🤖 Atlan Customer Support Copilot
 An intelligent AI pipeline combining machine learning classification and retrieval-augmented generation (RAG) for automated ticket triage and contextual response generation.
 
 
 
-🏗️ Architecture Overview
+🏗️ #Architecture Overview
 System Architecture
 ![System Architecture](images/architecture.png)
 Component Interactions
@@ -15,7 +15,7 @@ RAG Pipeline: Documentation retrieval, embedding, and context-aware generation
 
 Knowledge Base: Dynamic web scraping and vector storage for fresh documentation
 
-💡 Design Decisions & Trade-offs
+#💡 Design Decisions & Trade-offs
 1. Hybrid Classification Strategy
 Decision: Implement both AI-powered and rule-based classification with automatic fallback.
 
@@ -29,7 +29,7 @@ Maintains functionality during API outages
 
 Controls operational costs
 
-Trade-offs:
+#Trade-offs:
 
 ✅ AI Classification: High accuracy, handles nuance, adapts to new patterns
 
