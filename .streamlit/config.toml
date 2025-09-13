@@ -1,0 +1,15 @@
+[theme]
+# Main accent color (buttons, sliders, checkboxes, etc.)
+primaryColor = "#2D6AE3"         # Atlan Blue
+
+# Background color for the main content area
+backgroundColor = "#F8FAFF"      # Very light blue
+
+# Background color for sidebar and widgets
+secondaryBackgroundColor = "#dededeff"   # Light bluish gray
+
+# Color for text
+textColor = "#2d3ce0ff"            # Dark slate for readability
+
+# Font family: "sans serif", "serif", or "monospace"
+font = "sans serif"
