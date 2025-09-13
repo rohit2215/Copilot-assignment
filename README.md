@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-#🤖 Atlan Customer Support Copilot
-=======
+
 # Atlan Customer Support Copilot
 
->>>>>>> b496c4f (done changes)
 An intelligent AI pipeline combining machine learning classification and retrieval-augmented generation (RAG) for automated ticket triage and contextual response generation.
 
 🏗️ #Architecture Overview
