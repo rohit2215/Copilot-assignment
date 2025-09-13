@@ -296,4 +296,6 @@ The system addresses customer support challenges through a logical three-stage p
 
 The architecture demonstrates how AI can enhance customer support through intelligent automation while maintaining human oversight and control.
 
-Live Demo: https://copilot-assignment-3sjsmo7ru3kps57kz4yfrn.streamlit.app/
+Live Demo : https://copilot-assignment-3sjsmo7ru3kps57kz4yfrn.streamlit.app/
+
+Loom Demo Video: https://www.loom.com/share/5f797497e4714dd89f09deb469e020ac?sid=7291b1ed-5200-4d85-8149-a478bab1ca72
