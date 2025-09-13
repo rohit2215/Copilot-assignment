@@ -3,8 +3,9 @@
 
 An intelligent AI pipeline combining machine learning classification and retrieval-augmented generation (RAG) for automated ticket triage and contextual response generation.
 
-🏗️ ##Architecture Overview
+🏗️ Architecture Overview
 System Architecture
+
 ![System Architecture](images/architecture.png)
 Component Interactions
 Streamlit UI: Single-page application with bulk processing and interactive modes
