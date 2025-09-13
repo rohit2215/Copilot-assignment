@@ -149,11 +149,10 @@ OpenAI API key (optional)
 
 Installation
 bash
-=======
+
 ### Installation
 ```bash
->>>>>>> b496c4f (done changes)
-=======
+
 
 ## Architecture Overview
 
@@ -218,7 +217,7 @@ bash
 
 ### Installation
 ```bash
->>>>>>> b496c4f (done changes)
+
 # Clone repository
 git clone <repository-url>
 cd support-copilot-demo
