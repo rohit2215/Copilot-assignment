@@ -53,7 +53,7 @@ Streamlit UI: Single-page application with bulk processing and interactive modes
 - Self-contained with clear data flow
 
 
-#💡 Design Decisions & Trade-offs
+💡 # Design Decisions & Trade-offs
 1. Hybrid Classification Strategy
 Decision: Implement both AI-powered and rule-based classification with automatic fallback.
 
