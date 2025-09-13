@@ -60,7 +60,7 @@ Decision: Implement both AI-powered and rule-based classification with automatic
 **Trade-offs:**
 - ✅ Pros: Easy deployment, minimal configuration, straightforward debugging
 - ❌ Cons: Limited scalability, harder maintenance at scale
->>>>>>> b496c4f (done changes)
+
 
 ### 3. Dynamic Knowledge Base
 **Decision:** Web scraping approach with configurable documentation sources.
