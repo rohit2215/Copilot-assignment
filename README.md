@@ -1,18 +1,29 @@
 
+
+=======
+
 # Atlan Customer Support Copilot
 
 An intelligent AI pipeline combining machine learning classification and retrieval-augmented generation (RAG) for automated ticket triage and contextual response generation.
+
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.20%2B-red?logo=streamlit)
+![OpenAI GPT-3.5](https://img.shields.io/badge/OpenAI-GPT--3.5-green?logo=openai)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
 Component Interactions
 Streamlit UI: Single-page application with bulk processing and interactive modes
 =======
+=======
+>>>>>>> b496c4f (done changes)
 ## Table of Contents
 - [Architecture Overview](#architecture-overview)
 - [Design Decisions & Trade-offs](#design-decisions--trade-offs)
 - [Quick Setup](#quick-setup)
 - [Usage Guide](#usage-guide)
 - [Problem-Solving Approach](#problem-solving-approach)
+
 
 ## Architecture Overview
 
@@ -140,6 +151,72 @@ OpenAI API key (optional)
 Installation
 bash
 =======
+### Installation
+```bash
+>>>>>>> b496c4f (done changes)
+=======
+
+## Architecture Overview
+
+### System Architecture
+
+![System Architecture](images/architecture.png)
+
+### Component Interactions
+- **Streamlit UI:** Single-page application with bulk processing and interactive modes
+- **Dual Classification:** OpenAI GPT-3.5 with heuristic fallback for reliability
+- **RAG Pipeline:** Documentation retrieval, embedding, and context-aware generation
+- **Knowledge Base:** Dynamic web scraping and vector storage for fresh documentation
+
+## Design Decisions & Trade-offs
+
+### 1. Hybrid Classification Strategy
+**Decision:** Implement both AI-powered and rule-based classification with automatic fallback.
+
+**Rationale:**
+- Ensures system availability without external dependencies
+- Provides high accuracy when OpenAI available
+- Maintains functionality during API outages
+- Controls operational costs
+
+**Trade-offs:**
+- ✅ AI Classification: High accuracy, handles nuance, adapts to new patterns
+- ✅ Heuristic Fallback: Zero cost, predictable, works offline
+- ❌ Limitations: Heuristics require manual updates, less accurate for edge cases
+
+### 2. Single-File Implementation
+**Decision:** Complete implementation in single app.py file.
+
+**Rationale:**
+- Beginner-friendly and easy to understand
+- Minimal setup and deployment complexity
+- Rapid prototyping and iteration
+- Self-contained with clear data flow
+
+**Trade-offs:**
+- ✅ Pros: Easy deployment, minimal configuration, straightforward debugging
+- ❌ Cons: Limited scalability, harder maintenance at scale
+
+### 3. Dynamic Knowledge Base
+**Decision:** Web scraping approach with configurable documentation sources.
+
+**Rationale:**
+- Always current with latest documentation
+- Flexible source configuration
+- No manual content updates required
+- Semantic search capabilities
+
+**Trade-offs:**
+- ✅ Advantages: Fresh content, automatic updates, multiple sources
+- ❌ Limitations: Processing latency, URL dependency, memory usage
+
+## Quick Setup
+
+### Prerequisites
+- Python 3.7+
+- pip package manager
+- OpenAI API key (optional)
+
 ### Installation
 ```bash
 >>>>>>> b496c4f (done changes)
