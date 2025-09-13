@@ -26,7 +26,7 @@ Streamlit UI: Single-page application with bulk processing and interactive modes
 - **RAG Pipeline:** Documentation retrieval, embedding, and context-aware generation
 - **Knowledge Base:** Dynamic web scraping and vector storage for fresh documentation
 
-## Design Decisions & Trade-offs
+# Design Decisions & Trade-offs
 
 ### 1. Hybrid Classification Strategy
 **Decision:** Implement both AI-powered and rule-based classification with automatic fallback.
