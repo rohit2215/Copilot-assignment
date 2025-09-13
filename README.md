@@ -2,53 +2,10 @@
 An intelligent AI pipeline combining machine learning classification and retrieval-augmented generation (RAG) for automated ticket triage and contextual response generation.
 
 
-📋 Table of Contents
-Architecture Overview
-
-Design Decisions & Trade-offs
-
-Quick Setup
-
-Usage Guide
-
-Problem-Solving Approach
 
 🏗️ Architecture Overview
 System Architecture
-Diagram
-graph TB
-    A[User] -->|Submits Ticket| B[Streamlit UI]
-    B -->|Classify Ticket| C[Classifier]
-    B -->|RAG Query| D[RAG Pipeline]
-    
-    subgraph "Classification"
-        C --> E{OpenAI Available?}
-        E -->|Yes| F[GPT-3.5 Classification]
-        E -->|No| G[Heuristic Classification]
-    end
-    
-    subgraph "RAG Pipeline"
-        D --> H[Document Retrieval]
-        H --> I[Text Chunking]
-        I --> J[Embedding Generation]
-        J --> K[Vector Similarity Search]
-        K --> L[Response Generation]
-    end
-    
-    subgraph "Knowledge Base"
-        M[Documentation URLs] --> N[Web Scraping]
-        N --> O[Content Processing]
-        O --> P[Vector Store]
-    end
-    
-    F --> Q[Classification Results]
-    G --> Q
-    L --> R[RAG Response]
-    Q --> B
-    R --> B
-    P --> K
-
-
+![System Architecture](images/architecture.png)
 Component Interactions
 Streamlit UI: Single-page application with bulk processing and interactive modes
 
