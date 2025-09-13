@@ -36,7 +36,7 @@ Streamlit UI: Single-page application with bulk processing and interactive modes
 - Provides high accuracy when OpenAI available
 - Maintains functionality during API outages
 - Controls operational costs
->>>>>>> b496c4f (done changes)
+)
 
 **Trade-offs:**
 - ✅ AI Classification: High accuracy, handles nuance, adapts to new patterns
