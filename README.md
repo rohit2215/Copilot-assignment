@@ -3,10 +3,7 @@
 
 An intelligent AI pipeline combining machine learning classification and retrieval-augmented generation (RAG) for automated ticket triage and contextual response generation.
 
-🏗️ Architecture Overview
-System Architecture
 
-![System Architecture](images/architecture.png)
 Component Interactions
 Streamlit UI: Single-page application with bulk processing and interactive modes
 =======
@@ -55,7 +52,7 @@ Streamlit UI: Single-page application with bulk processing and interactive modes
 - Rapid prototyping and iteration
 - Self-contained with clear data flow
 
-<<<<<<< HEAD
+
 #💡 Design Decisions & Trade-offs
 1. Hybrid Classification Strategy
 Decision: Implement both AI-powered and rule-based classification with automatic fallback.
