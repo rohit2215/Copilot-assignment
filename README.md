@@ -82,7 +82,7 @@ Decision: Implement both AI-powered and rule-based classification with automatic
 - pip package manager
 - OpenAI API key (optional)
 
-<<<<<<< HEAD
+
 #Trade-offs:
 
 ✅ AI Classification: High accuracy, handles nuance, adapts to new patterns
