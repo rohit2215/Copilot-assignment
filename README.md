@@ -6,13 +6,6 @@
 >>>>>>> b496c4f (done changes)
 An intelligent AI pipeline combining machine learning classification and retrieval-augmented generation (RAG) for automated ticket triage and contextual response generation.
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.20%2B-red?logo=streamlit)
-![OpenAI GPT-3.5](https://img.shields.io/badge/OpenAI-GPT--3.5-green?logo=openai)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-<<<<<<< HEAD
-
 🏗️ #Architecture Overview
 System Architecture
 ![System Architecture](images/architecture.png)
