@@ -1,6 +1,6 @@
 
 
-=======
+
 
 # Atlan Customer Support Copilot
 
@@ -14,9 +14,8 @@ An intelligent AI pipeline combining machine learning classification and retriev
 
 Component Interactions
 Streamlit UI: Single-page application with bulk processing and interactive modes
-=======
-=======
->>>>>>> b496c4f (done changes)
+
+
 ## Table of Contents
 - [Architecture Overview](#architecture-overview)
 - [Design Decisions & Trade-offs](#design-decisions--trade-offs)
